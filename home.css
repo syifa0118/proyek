@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  background-color: #d0efff;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #1064a4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  height: 100px;
+}
+
+.logo img {
+  height: 90px;
+  width: auto;
+}
+
+.search-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 30px;
+}
+
+.search-bar {
+  position: relative;
+  background-color: #d0efff;
+  border-radius: 30px;
+  z-index: 2;
+  padding-right: 35px;
+}
+
+.search-bar input {
+  width: 520px;
+  height: 25px;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.search-bar i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #1064a4;
+  font-size: 20px;
+  pointer-events: none;
+}
+
+.search-box {
+  position: absolute;
+  top: -6px;
+  width: 570px;
+  height: 39px;
+  background-color: #03254C;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  font-size: 28px;
+  color: #d0efff;
+}
+
+.icon-cart, .icon-user {
+  font-size: 40px;
+}
+
+.information-1 {
+  width: 1245px;
+  height: 250px;
+  background-color: #1064a4;
+  border-radius: 10px;
+  margin: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information-2 {
+  width: 1220px;
+  height: 220px;
+  background-color: #2A93D5;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-info {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+
+.text-info h1, .text-info p {
+  color: #d0efff;
+  font-size: 35px;
+}
+
+.info {
+  width: 450px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.nav-btn {
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.nav-btn .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-btn .btn p {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #03254C;
+}
+
+.btn-1, .btn-2, .btn-3, .btn-4 {
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  background-color: #2A93D5;
+  border: none;
+  cursor: pointer;
+}
+
+.gallon, .filter, .botol, .mesin {
+  width: 70px;
+  height: 70px;
+}
+
+.container {
+  width: 1245px;
+  height: 2100px;
+  margin: 30px auto;
+  background-color: #03254C;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 1195px;
+  height: 2050px;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-2 {
+  width: 1145px;
+  height: 2000px;
+  background-color: #1064A4;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.katalog {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 15px;
+  padding: 10px;
+  width: 100%;
+  justify-items: center;
+}
+
+.katalog img {
+  width: 200px;
+  height: 230px;
+  object-fit: cover;
+  background-color: white;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 230px;
+  padding: 15px;
+}
+
+.item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.btn-barang {
+  background-color: #03254C;
+  color: #d0efff;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  width: 153px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.footer {
+  background-color: #1466a8;
+  color: #d0efff;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: #03254C;
+}
+
+.footer-item i {
+  font-size: 18px;
+}

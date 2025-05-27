@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detail Produk</title>
+  <link rel="stylesheet" href="TB.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">
+      <img src="img/logo on-qua.jfif" alt="Logo" />
+    </div>
+    <div class="search-wrapper">
+      <div class="search-bar">
+        <input type="text" placeholder="Search" />
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="search-box"></div>
+    </div>
+    <div class="icons">
+      <i class="fa-solid fa-cart-shopping icon-cart"></i>
+      <i class="fa-regular fa-circle-user icon-user"></i>
+    </div>
+  </div>
+
+  <!-- Tombol Back -->
+  <a href="home.html" class="btn-back">
+    <i class="fa-solid fa-arrow-left"></i>
+  </a>
+
+  <!-- Container Produk -->
+  <div class="container">
+    <div class="box">
+      <div class="box-2">
+        <div class="product-detail">
+          <div class="product-info">
+            <img src="img/kran.jpg" alt="Kran Galon" class="product-image" />
+            <p>
+              Kran dispenser atau galon model<br>pencet dengan bahan plastik tebal
+              <br>dan berkualitas yang aman digunakan untuk<br>keperluan dispenser atau galon anda.
+            </p>
+          </div>
+          <div class="bottom-section">
+  <div class="btn-jumlah">
+    <button class="btn-kurang">−</button>
+    <span class="jumlah">1</span>
+    <button class="btn-tambah">+</button>
+  </div>
+  <div class="action-row">
+    <div class="harga">
+      <span>Total</span><br />
+      <span class="total-harga">Rp. 4.000</span>
+    </div>
+    <a href="cart.html" class="add-to-cart">Masukkan ke keranjang</a>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-info">
+      <div class="footer-item">
+        <i class="fa fa-phone"></i>
+        <span>+62 821-2777-2811 (Jumhadi)</span>
+      </div>
+      <div class="footer-item">
+        <i class="fa fa-map-marker-alt"></i>
+        <span>Jl. Raya Celeng Lohbener-Indramayu</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const btnKurang = document.querySelector(".btn-kurang");
+    const btnTambah = document.querySelector(".btn-tambah");
+    const jumlahSpan = document.querySelector(".jumlah");
+    const totalHarga = document.querySelector(".total-harga");
+
+    let jumlah = 1;
+    const hargaSatuan = 4000;
+
+    function updateTotal() {
+      totalHarga.textContent = `Rp. ${jumlah * hargaSatuan}`;
+    }
+
+    btnKurang.addEventListener("click", () => {
+      if (jumlah > 1) {
+        jumlah--;
+        jumlahSpan.textContent = jumlah;
+        updateTotal();
+      }
+    });
+
+    btnTambah.addEventListener("click", () => {
+      jumlah++;
+      jumlahSpan.textContent = jumlah;
+      updateTotal();
+    });
+  </script>
+</body>
+</html>

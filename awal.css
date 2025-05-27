@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #d0efff;
+  margin: 0;
+}
+
+.header {
+  background-color: #1064a4;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 40px;
+  color: #d0efff;
+  margin-left: 80px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.logo-img {
+  width: 297px;
+  height: 95px;
+  margin-left: 930px;
+  margin-top: -300px;
+  margin-bottom: 20px;
+}
+
+.container {
+  position: relative;
+  width: 700px;
+  height: 690px;
+  margin-top: 30px;
+  margin-left: 180px;
+  background-color: #03254C;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 650px;
+  height: 640px;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.box-2 {
+  width: 610px;
+  height: 600px;
+  background-color: #1064A4;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.box-3 {
+  background-color: #7ec8f3;
+  width: 297px;
+  height: 600px;
+  margin-left: 930px;
+  margin-top: -710px;
+  border-radius: 15px;
+  text-align: center;
+  color: #03254C;
+}
+
+.text {
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 50px;
+  padding-top: 25px;
+  line-height: 1.5;
+}
+
+.text-2 {
+  margin: 30px 0;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  background-color: #03254C;
+  color: #d9d9d9;
+  border: none;
+  padding: 10px 25px;
+  width: 150px;
+  height: 45px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px;
+  padding: 20px;
+  width: 100%;
+  justify-items: center;
+}
+
+.image-grid img {
+  width: 150px;
+  height: 180px;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 20px;
+}
+
