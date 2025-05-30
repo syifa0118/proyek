@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Tambah Barang</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="tambah_barang.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="gambar/logo_on-qua.jpeg" alt="logotoko" class="logo logo-toko">
+    <h2>Tambah Barang</h2>
+    <h3>Admin</h3>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+</svg>
+  </header>
+
+  <div class="icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+</svg>
+  </div>
+
+  <div class="container">
+    <div class="box">
+      <div class="box-2">
+        <form method="POST" action="p_tambah_barang.php" enctype="multipart/form-data">
+          <label for="nama_barang">Nama Barang:</label><br>
+          <input type="text" name="nama_barang" required><br><br>
+
+          <label for="jenis_barang">Jenis Barang:</label><br>
+          <input type="text" name="jenis_barang" required><br><br>
+
+          <label for="harga">Harga:</label><br>
+          <input type="number" name="harga" required><br><br>
+
+          <label for="stok">Stok:</label><br>
+          <input type="number" name="stok" required><br><br>
+
+          <label for="foto_barang">Foto Barang:</label><br>
+          <input type="file" name="foto_barang" accept="image/*" required><br><br>
+
+          <button type="submit">Simpan</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-distributed">
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+62 821-2777-2811 (Jumhadi)</p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Jl. Raya Celeng Lohbener-Indramayu</span></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
