@@ -1,0 +1,238 @@
+body{
+  background-color: #d0efff;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  background-color: #1064a4;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;   
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.header svg {
+    width: 40px;
+    height: 40px;
+    color: #d0efff;                                    
+    position: relative;
+    cursor: pointer;
+}
+
+h3 {
+  position: relative;
+  color: #d0efff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.logo {
+  width: 297px;
+  height: 95px;
+  flex-shrink: 0;
+}
+
+.logo-toko {
+  width: 300px;
+  right: 80px;
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-color: #808080;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button i {
+  pointer-events: none;
+}
+
+.search-bar button:hover {
+  background-color: #03254C;
+}
+
+@media (max-width: 600px) {
+  .search-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-bar input[type="text"],
+  .search-bar button {
+    border-radius: 20px;
+    margin: 5px 0;
+  }
+
+  .search-bar button {
+    border-left: 1px solid #ccc;
+  }
+}
+
+.container {
+  background-color: #03254C;
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 1100px;
+  margin: 30px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.order-content {
+  background-color: #1064a4;
+  border-radius: 12px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.order-date {
+  font-weight: bold;
+  font-size: 20px;
+  color: #d0efff;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.product-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  object-fit: cover;
+}
+
+.product-info {
+  font-size: 16px;
+  color: #d0efff;
+}
+
+.order-summary {
+  background-color: #e1effa;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #003366;
+  line-height: 1.6;
+}
+
+.order-summary .status {
+  font-weight: bold;
+  color: green;
+}
+
+ .footer-distributed{
+    background-color: #1064a4;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: center;
+    font: bold 16px sans-serif;
+    height: 130px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-distributed .footer-center{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Times New Roman', Times, serif;
+  }
+
+  .footer-distributed .footer-center i{
+    color: #03254C;
+    font-size: 25px;
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 10px;
+    margin: 10px 20px 10px 15px;
+    vertical-align: middle;
+  }
+
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #d0efff;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-right: 270px;
+    font-weight: 50px;
+  }
+
+  .footer-distributed .footer-right{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Times New Roman', Times, serif;
+  }
+
+  .footer-distributed .footer-right i{
+    color: #03254C;
+    font-size: 25px;
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 10px;
+    vertical-align: middle;
+    margin-left: 250px;
+  }
+
+  .footer-distributed .footer-right p{
+    display: inline-block;
+    color: #d0efff;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
+  .footer-distributed .footer-right p span{
+    display: block;
+    font-weight: 50px;
+    font-size: 20px;
+    line-height: 2;
+  }
+

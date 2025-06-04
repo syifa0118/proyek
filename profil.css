@@ -1,0 +1,225 @@
+body{
+  background-color: #d0efff;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  background-color: #1064a4;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;   
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.icon svg{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+h3 {
+  position: relative;
+  color: #d0efff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.logo {
+  width: 297px;
+  height: 95px;
+  flex-shrink: 0;
+}
+
+.logo-toko {
+  width: 300px;
+  right: 80px;
+}
+
+.container{
+  position: relative;
+  width: 700px;
+  height: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 310px;
+  background-color: #03254C;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 650px;
+  height: 550px;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.box-2 {
+  width: 600px;
+  height: 500px;
+  background-color: #1064A4;
+  border-radius: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+svg {
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.wrapper {
+  width: 420px;
+  color:#d9d9d9 ;
+}
+
+.wrapper h1 {
+  font-size: 27px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+ width: 100%;
+ height: 50px;
+margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: #2a93d5;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #d0efff;
+}
+
+.input-box input::placeholder {
+  color: #d0efff;
+}
+
+.button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: #2a93d5;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.button a{
+  color: #d0efff;
+  
+}
+
+ .footer-distributed{
+    background-color: #1064a4;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: center;
+    font: bold 16px sans-serif;
+    height: 130px;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-distributed .footer-center{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Times New Roman', Times, serif;
+  }
+
+  .footer-distributed .footer-center i{
+    color: #03254C;
+    font-size: 25px;
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 10px;
+    margin: 10px 20px 10px 15px;
+    vertical-align: middle;
+  }
+
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #d0efff;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-right: 270px;
+    font-weight: 50px;
+  }
+
+  .footer-distributed .footer-right{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Times New Roman', Times, serif;
+  }
+
+  .footer-distributed .footer-right i{
+    color: #03254C;
+    font-size: 25px;
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 10px;
+    vertical-align: middle;
+    margin-left: 250px;
+  }
+
+  .footer-distributed .footer-right p{
+    display: inline-block;
+    color: #d0efff;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
+  .footer-distributed .footer-right p span{
+    display: block;
+    font-weight: 50px;
+    font-size: 20px;
+    line-height: 2;
+  }
+

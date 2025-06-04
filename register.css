@@ -1,48 +1,37 @@
-body{
+* {
+  box-sizing: border-box;
+}
+body {
   background-color: #d0efff;
-  padding: 0;
+  margin: 0;
 }
 
 .header {
-  position: relative;
   background-color: #1064a4;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 130px;   
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 40px;
-  box-sizing: border-box;
+  padding: 5px;
 }
 
-.header h2 {
-  color: #d0efff;
-  font-family: 'Times New Roman', Times, serif;
+h2 {
   font-size: 40px;
-  font-style: normal;
-  margin-left: 150px;
-  font-weight: 400;
+  color: #d0efff;
+  margin-left: 80px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.logo {
+img {
   width: 297px;
   height: 95px;
-  flex-shrink: 0;
+  margin-left: 930px;
+  margin-top: -300px;
+  margin-bottom: 20px;
 }
 
-.logo-toko {
-  width: 300px;
-  right: 80px;
-}
-
-.container{
+.container {
   position: relative;
   width: 700px;
-  height: 500px;
+  height: 630px;
   margin-top: 30px;
-  margin-left: 310px;
+  margin-left: 250px;
   background-color: #03254C;
   border-radius: 30px;
   display: flex;
@@ -52,7 +41,7 @@ body{
 
 .box {
   width: 650px;
-  height: 450px;
+  height: 570px;
   background-color: #d9d9d9;
   border-radius: 30px;
   justify-content: center;
@@ -62,29 +51,35 @@ body{
 
 .box-2 {
   width: 600px;
-  height: 400px;
+  height: 520px;
   background-color: #1064A4;
   border-radius: 30px;
-  justify-content: center;
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .wrapper {
-  width: 420px;
-  color:#d9d9d9 ;
+  width: 100%;
+  padding: 20px;
 }
 
 .wrapper h1 {
-  font-size: 27px;
+  font-size: 24px;
+  background-color: #03254C;
+  color: #d0efff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin: 0 auto 30px auto;
   text-align: center;
+  width: fit-content;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.wrapper .input-box {
- width: 100%;
- height: 50px;
-margin: 30px 0;
+.input-box {
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
 }
 
 .input-box input {
@@ -95,7 +90,6 @@ margin: 30px 0;
   border-radius: 15px;
   background-color: #2a93d5;
   font-size: 18px;
-  font-family: sans-serif;
   text-align: center;
   color: #d0efff;
 }
@@ -104,20 +98,15 @@ margin: 30px 0;
   color: #d0efff;
 }
 
-.wrapper .btn {
+.btn {
   width: 150px;
   height: 45px;
-  margin-left: 140px;
-  background:#03254C;
+  display: block;
+  margin: 20px auto 0 auto;
+  background: #03254C;
   border: none;
-  outline: none;
   cursor: pointer;
   border-radius: 15px;
   color: #d0efff;
   font-size: 18px;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #0056b3;
 }
